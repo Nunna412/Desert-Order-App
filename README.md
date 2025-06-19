@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Dessert Order Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+This is a modern and responsive web application designed for browsing and ordering desserts. Users can view a catalog of delicious desserts, add them to their shopping cart, review their order summary, and proceed to a carbon-neutral delivery confirmation. The application is built using React for dynamic UI and styled with pure CSS for a clean and appealing look.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+* **Dessert Catalog:** Browse a variety of dessert items with prices.
+* **Dynamic Shopping Cart:** Add or remove items, with quantities updating in real-time.
+* **Order Summary:** A clear display of all items in the cart and the total order amount.
+* **Carbon-Neutral Delivery Indicator:** A visual note about sustainable delivery.
+* **Order Confirmation Modal:** A pop-up modal confirming the order with a summary of purchased items.
+* **Responsive Design:** Adapts seamlessly to different screen sizes.
+* **Pure CSS Styling:** Hand-crafted CSS for precise visual replication.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Main Dessert Page with Cart](https://github.com/user-attachments/assets/ab7f23fd-7a62-4b12-9341-da6f7687fc74) _A screenshot of the main page displaying desserts and the shopping cart_
 
-### `npm test`
+![Order Confirmed Modal](https://github.com/user-attachments/assets/54edd95e-66c6-4dc8-9ec1-f79a24f06428)_A screenshot of the order confirmation modal after placing an order_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+* **React:** Frontend JavaScript library for building user interfaces.
+* **HTML5:** Structure of the web application.
+* **CSS3:** Styling and responsive design.
+* **JavaScript (ES6+):** For application logic and interactivity.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Browse through the available desserts.
+* Click the '+' button to add items to your cart.
+* Click the '-' button to decrease the quantity of an item in your cart.
+* The shopping cart on the right will update automatically with your selections and the total price.
+* Click the "Confirm Order" button to finalize your purchase and view the order confirmation.
+* In the confirmation modal, click "Start New Order" to clear the cart and return to the main menu.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
